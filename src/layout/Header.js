@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Welcome from '../user/Welcome'
+import Welcome from '../user/welcome/Welcome'
 import Clock from '../utils/Clock'
 import './Header.css'
 

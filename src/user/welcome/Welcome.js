@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from './avatar/Avatar';
+import Avatar from '../avatar/Avatar';
 import './Welcome.css'
 
 // create a component definition
