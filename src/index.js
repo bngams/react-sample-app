@@ -1,17 +1,23 @@
+// chargement via les modules JS
+// imports - chargement des scripts
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// display a component from an external file
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+//how to render and update element in page
+// function tick() {
+//   const element = (
+//     <div>
+//       <Welcome firstname="Boris" />,
+//       <h2>Il est {new Date().toLocaleTimeString()}.</h2>
+//     </div>
+//   );
+//   ReactDOM.render(element, document.getElementById('root'));
+// }
+
+// setInterval(tick, 3000);
