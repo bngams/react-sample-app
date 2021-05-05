@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 export default class Toggle extends Component {
     // create state active
     constructor(props) {
+        // call parent constructor
         super(props);
+
+        // state
         this.state = {
             active: true
         };
